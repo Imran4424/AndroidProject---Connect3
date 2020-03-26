@@ -33,7 +33,7 @@
             app:layout_row="0" />
 
         <ImageView
-            android:id="@+id/imageViewOne"
+            android:id="@+id/imageViewTwo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="16dp"
@@ -43,7 +43,7 @@
             app:layout_row="0" />
 
         <ImageView
-            android:id="@+id/imageViewOne"
+            android:id="@+id/imageViewThree"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="16dp"
@@ -53,7 +53,7 @@
             app:layout_row="0" />
 
         <ImageView
-            android:id="@+id/imageViewOne"
+            android:id="@+id/imageViewFour"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="16dp"
@@ -63,7 +63,7 @@
             app:layout_row="0" />
 
         <ImageView
-            android:id="@+id/imageViewOne"
+            android:id="@+id/imageViewFive"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="16dp"
@@ -73,7 +73,37 @@
             app:layout_row="0" />
 
         <ImageView
-            android:id="@+id/imageViewOne"
+            android:id="@+id/imageViewSix"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:onClick="cellTapped"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageViewSeven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:onClick="cellTapped"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageViewEight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="16dp"
+            android:onClick="cellTapped"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageViewNine"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="16dp"
