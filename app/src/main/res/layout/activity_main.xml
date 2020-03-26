@@ -24,9 +24,9 @@
 
         <ImageView
             android:id="@+id/imageViewOne"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:padding="1dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="17dp"
             app:layout_column="0"
             app:layout_row="0"
             app:srcCompat="@drawable/red" />
