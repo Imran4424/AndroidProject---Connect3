@@ -38,7 +38,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:onClick="cellTapped"
-            android:tag="0"
+            android:tag="1"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -48,7 +48,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:onClick="cellTapped"
-            android:tag="0"
+            android:tag="2"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -58,7 +58,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:onClick="cellTapped"
-            android:tag="0"
+            android:tag="3"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -68,7 +68,7 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:onClick="cellTapped"
-            android:tag="0"
+            android:tag="4"
             app:layout_column="0"
             app:layout_row="0" />
 
