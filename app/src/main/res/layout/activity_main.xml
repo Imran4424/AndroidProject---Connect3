@@ -26,31 +26,27 @@
             android:id="@+id/imageViewOne"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="15dp"
             android:onClick="cellTapped"
             android:tag="0"
-            app:layout_column="0"
-            app:layout_row="0" />
+             />
 
         <ImageView
             android:id="@+id/imageViewTwo"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="7dp"
             android:onClick="cellTapped"
-            android:tag="1"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="1" />
 
         <ImageView
             android:id="@+id/imageViewThree"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
             android:onClick="cellTapped"
-            android:tag="2"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="2" />
 
         <ImageView
             android:id="@+id/imageViewFour"
@@ -58,69 +54,47 @@
             android:layout_height="100dp"
             android:layout_margin="16dp"
             android:onClick="cellTapped"
-            android:tag="3"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="3" />
 
         <ImageView
             android:id="@+id/imageViewFive"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="25dp"
             android:onClick="cellTapped"
-            android:tag="4"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="4" />
 
         <ImageView
             android:id="@+id/imageViewSix"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="25dp"
             android:onClick="cellTapped"
-            android:tag="5"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="5" />
 
         <ImageView
             android:id="@+id/imageViewSeven"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="25dp"
             android:onClick="cellTapped"
-            android:tag="6"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="6" />
 
         <ImageView
             android:id="@+id/imageViewEight"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="25dp"
             android:onClick="cellTapped"
-            android:tag="7"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="7" />
 
         <ImageView
             android:id="@+id/imageViewNine"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="16dp"
+            android:layout_margin="25dp"
             android:onClick="cellTapped"
-            android:tag="8"
-            app:layout_column="0"
-            app:layout_row="0" />
-
-        <ImageView
-            android:id="@+id/imageViewTen"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="16dp"
-            android:onClick="cellTapped"
-            android:tag="9"
-            app:layout_column="0"
-            app:layout_row="0" />
+            android:tag="8" />
 
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
