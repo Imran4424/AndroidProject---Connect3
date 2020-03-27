@@ -55,6 +55,17 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
+            android:layout_marginTop="21dp"
+            android:tag="3"
+            android:onClick="cellTapped"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageViewOne"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:tag="0"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
     </androidx.gridlayout.widget.GridLayout>
