@@ -16,5 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void dropIn(View tappedView) {
         ImageView tappedCell = (ImageView) tappedView;
+
+        tappedCell.setTranslationY(-2000);
+        tappedCell.setImageResource(R.drawable.yellow);
+        tappedCell.animate().translationYBy(2000).setDuration(2000);
     }
 }
