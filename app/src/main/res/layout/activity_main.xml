@@ -67,7 +67,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="21dp"
             android:layout_marginLeft="22dp"
-            android:tag="0"
+            android:tag="4"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
 
@@ -78,7 +78,17 @@
             android:layout_margin="10dp"
             android:layout_marginTop="21dp"
             android:layout_marginLeft="17dp"
-            android:tag="0"
+            android:tag="5"
+            android:onClick="cellTapped"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageViewSeven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:tag="6"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
     </androidx.gridlayout.widget.GridLayout>
