@@ -61,10 +61,12 @@
             app:srcCompat="@drawable/red" />
 
         <ImageView
-            android:id="@+id/imageViewOne"
+            android:id="@+id/imageViewFive"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="22dp"
             android:tag="0"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
