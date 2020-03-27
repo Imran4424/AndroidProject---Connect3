@@ -27,7 +27,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:tag="0"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
@@ -79,8 +79,7 @@
             android:layout_marginTop="21dp"
             android:layout_marginLeft="17dp"
             android:tag="5"
-            android:onClick="cellTapped"
-            app:srcCompat="@drawable/red" />
+            android:onClick="cellTapped" />
 
         <ImageView
             android:id="@+id/imageViewSeven"
