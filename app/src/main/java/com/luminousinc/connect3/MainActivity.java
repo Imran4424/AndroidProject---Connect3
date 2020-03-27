@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
             tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
+        } else {
+            
         }
-
-
     }
 }
