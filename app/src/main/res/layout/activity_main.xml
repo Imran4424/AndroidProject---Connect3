@@ -37,7 +37,7 @@
             android:layout_margin="10dp"
             android:layout_marginLeft="22dp"
             android:tag="1"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
@@ -47,7 +47,7 @@
             android:layout_margin="10dp"
             android:tag="2"
             android:layout_marginLeft="18dp"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
@@ -57,7 +57,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="21dp"
             android:tag="3"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
@@ -68,7 +68,7 @@
             android:layout_marginTop="21dp"
             android:layout_marginLeft="22dp"
             android:tag="4"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
