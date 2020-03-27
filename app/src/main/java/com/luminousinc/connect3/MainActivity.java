@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dropIn(View tappedView) {
-        ImageView
+        ImageView tappedCell = (ImageView) tappedView;
     }
 }
