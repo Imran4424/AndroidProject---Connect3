@@ -26,6 +26,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
+            android:tag="0"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
 
@@ -35,6 +36,7 @@
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:layout_marginLeft="22dp"
+            android:tag="1"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
 
@@ -43,7 +45,16 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="10dp"
-            android:layout_marginLeft="15dp"
+            android:tag="2"
+            android:layout_marginLeft="18dp"
+            android:onClick="cellTapped"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageViewFour"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
     </androidx.gridlayout.widget.GridLayout>
