@@ -37,5 +37,14 @@
             android:layout_marginLeft="22dp"
             android:onClick="cellTapped"
             app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageViewThree"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:onClick="cellTapped"
+            app:srcCompat="@drawable/red" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
