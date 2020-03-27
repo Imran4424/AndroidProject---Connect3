@@ -79,7 +79,7 @@
             android:layout_marginTop="21dp"
             android:layout_marginLeft="17dp"
             android:tag="5"
-            android:onClick="cellTapped" />
+            android:onClick="dropIn" />
 
         <ImageView
             android:id="@+id/imageViewSeven"
@@ -88,7 +88,7 @@
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
             android:tag="6"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
