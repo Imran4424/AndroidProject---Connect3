@@ -28,7 +28,7 @@
             android:layout_margin="10dp"
             android:tag="0"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewTwo"
@@ -38,7 +38,7 @@
             android:layout_marginLeft="22dp"
             android:tag="1"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewThree"
@@ -48,7 +48,7 @@
             android:tag="2"
             android:layout_marginLeft="18dp"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewFour"
@@ -58,7 +58,7 @@
             android:layout_marginTop="21dp"
             android:tag="3"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewFive"
@@ -69,7 +69,7 @@
             android:layout_marginLeft="22dp"
             android:tag="4"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewSix"
@@ -89,7 +89,7 @@
             android:layout_marginTop="20dp"
             android:tag="6"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewEight"
@@ -100,7 +100,7 @@
             android:layout_marginLeft="22dp"
             android:tag="7"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
 
         <ImageView
             android:id="@+id/imageViewNine"
@@ -111,6 +111,6 @@
             android:layout_marginLeft="17dp"
             android:tag="8"
             android:onClick="dropIn"
-            app:srcCompat="@drawable/red" />
+            />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
