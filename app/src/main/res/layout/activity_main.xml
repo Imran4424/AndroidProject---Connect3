@@ -99,7 +99,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="22dp"
             android:tag="7"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
 
         <ImageView
@@ -110,7 +110,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="17dp"
             android:tag="8"
-            android:onClick="cellTapped"
+            android:onClick="dropIn"
             app:srcCompat="@drawable/red" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
