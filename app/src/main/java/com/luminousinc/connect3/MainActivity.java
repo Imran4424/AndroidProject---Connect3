@@ -22,11 +22,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView tappedCell = (ImageView) tappedView;
 
         if(0 == activePlayer) {
-
-
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
-
 
             activePlayer = 1;
         } else {
