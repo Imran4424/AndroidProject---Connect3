@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 winner = "Red";
             }
+
+            delayHandler.postDelayed(startNewActivity, 100);
         }
     }
 
@@ -85,5 +87,5 @@ public class MainActivity extends AppCompatActivity {
             congratsActivityIntent.putExtra("winnerName", winner);
             startActivity(congratsActivityIntent);
         }
-    }
+    };
 }
