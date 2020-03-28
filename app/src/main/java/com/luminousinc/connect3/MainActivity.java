@@ -19,12 +19,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dropIn(View tappedView) {
+        ImageView tappedCell = (ImageView) tappedView;
+
         if(0 == activePlayer) {
-            ImageView tappedCell = (ImageView) tappedView;
+
 
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
-            tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
+
 
             activePlayer = 1;
         } else {
@@ -32,9 +34,11 @@ public class MainActivity extends AppCompatActivity {
 
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
-            tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
+            tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(700);
 
             activePlayer = 0;
         }
+
+        tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
     }
 }
