@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     // 0 - empty, 1 - red, 2 - yellow
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 winner = "Yellow";
             }
+
+            Toast.makeText(this, winner + " has Won", Toast.LENGTH_SHORT);
         }
     }
 
