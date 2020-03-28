@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return true;
+        return true;
     }
 
     private Runnable startNewActivity = new Runnable() {
