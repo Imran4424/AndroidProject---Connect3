@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
             Intent congratsActivityIntent = new Intent(MainActivity.this, congratsActivity.class);
             congratsActivityIntent.putExtra("winnerName", winner);
-            
+            startActivity(congratsActivityIntent);
         }
     }
 
