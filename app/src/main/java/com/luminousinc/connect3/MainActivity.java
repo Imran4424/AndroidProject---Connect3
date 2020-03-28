@@ -51,4 +51,12 @@ public class MainActivity extends AppCompatActivity {
 
         tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
     }
+
+    public boolean isWon() {
+        for(int[] winOneDArr: winningPositions) {
+            if(0 != gameState[winOneDArr[0]] && gameState[winOneDArr[0]] == gameState[winOneDArr[1]] && gameState[winOneDArr[1]] == gameState[winOneDArr[2]]) {
+                return 
+            }
+        }
+    }
 }
