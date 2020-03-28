@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         if(isWon() || isFull()) {
             // this is confusing but active player is changed after his turn
             if(1 == activePlayer) {
-                winner = "Yellow";
+                winner = "Yellow Wins";
             } else {
                 winner = "Red";
             }
