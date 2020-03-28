@@ -9,6 +9,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     // 0 - yellow, 1 - red
     int activePlayer;
+    int[] gameState = {2, 2, 2, 2, 2, 2, 2, 2};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
