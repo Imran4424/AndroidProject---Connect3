@@ -9,7 +9,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     // 0 - empty, 1 - red, 2 - yellow
     int activePlayer;
-    int[] gameState = {0, 0, 0, 0, 0, 0, 0, 0};
+    int[] gameState = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             activePlayer = 1;
         } else {
             tappedCell.setTranslationY(-2000);
-            tappedCell.setImageResource(R.drawable.yellow);
+            tappedCell.setImageResource(R.drawable.red);
 
             activePlayer = 2;
         }
