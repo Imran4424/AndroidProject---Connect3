@@ -66,10 +66,6 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 winner = "Red";
             }
-
-            Intent congratsActivityIntent = new Intent(MainActivity.this, congratsActivity.class);
-            congratsActivityIntent.putExtra("winnerName", winner);
-            startActivity(congratsActivityIntent);
         }
     }
 
@@ -81,5 +77,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return  false;
+    }
+
+    private Runnable startNewActivity = new Runnable() {
+        @Override
+        public void run() {
+            
+        }
     }
 }
