@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             activePlayer = 2;
         }
 
-        tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
+        tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(700);
 
         if(isWon()) {
             // this is confusing but active player is changed after his turn
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 winner = "Red";
             }
 
-            delayHandler.postDelayed(startNewActivity, 100);
+            delayHandler.postDelayed(startNewActivity, 1000);
         }
     }
 
