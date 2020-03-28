@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 winner = "Game Draw";
             }
+            
             delayHandler.postDelayed(startNewActivity, 1500);
         }
     }
