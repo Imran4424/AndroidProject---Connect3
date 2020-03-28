@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    // 0 - yellow, 1 - red
+    // 0 - yellow, 1 - red, 2 - empty
     int activePlayer;
     int[] gameState = {2, 2, 2, 2, 2, 2, 2, 2};
 
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void dropIn(View tappedView) {
         ImageView tappedCell = (ImageView) tappedView;
-
+        int index = Integer.parseInt(tappedCell.getTag().toString());
         if(0 == activePlayer) {
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
