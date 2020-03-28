@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
                                 {2, 5, 8},
                                 {0, 4, 8},
                                 {2, 4, 6} };
+
+    private Handler delayHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
