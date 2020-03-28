@@ -9,12 +9,17 @@ import android.widget.TextView;
 
 public class congratsActivity extends AppCompatActivity {
     TextView winnerText;
+    String winnerName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_congrats);
+
         winnerText = (TextView) findViewById(R.id.textViewWinner);
+        Intent currentIntent = getIntent();
+        winnerName = currentIntent.getStringExtra(winnerName);
+        winnerText.setText(winnerName + " Wins");
     }
 
     public void playAgain(View v) {
