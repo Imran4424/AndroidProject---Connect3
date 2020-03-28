@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             if(1 == activePlayer) {
                 winner = "Yellow Wins";
             } else {
-                winner = "Red";
+                winner = "Red Wins";
             }
 
             delayHandler.postDelayed(startNewActivity, 1500);

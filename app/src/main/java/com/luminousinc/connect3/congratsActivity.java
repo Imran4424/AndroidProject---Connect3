@@ -19,7 +19,7 @@ public class congratsActivity extends AppCompatActivity {
         winnerText = (TextView) findViewById(R.id.textViewWinner);
         Intent currentIntent = getIntent();
         winner = currentIntent.getStringExtra("winnerName");
-        winnerText.setText(winner + " Wins");
+        winnerText.setText(winner);
     }
 
     public void playAgain(View v) {
