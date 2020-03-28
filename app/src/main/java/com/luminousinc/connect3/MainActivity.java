@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
                                 {2, 4, 6} };
 
     private Handler delayHandler;
+    String winner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,8 +59,6 @@ public class MainActivity extends AppCompatActivity {
         tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
 
         if(isWon()) {
-            String winner;
-
             // this is confusing but active player is changed after his turn
             if(1 == activePlayer) {
                 winner = "Yellow";
