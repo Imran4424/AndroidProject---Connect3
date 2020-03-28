@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
     public void dropIn(View tappedView) {
         ImageView tappedCell = (ImageView) tappedView;
         int index = Integer.parseInt(tappedCell.getTag().toString());
+
+        if(2 != gameState[index]) {
+            return;
+        }
+
         if(0 == activePlayer) {
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
