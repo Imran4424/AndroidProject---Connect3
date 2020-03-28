@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     // 0 - empty, 1 - red, 2 - yellow
     int activePlayer;
     int[] gameState = {0, 0, 0, 0, 0, 0, 0, 0, 0};
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
