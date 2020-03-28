@@ -55,13 +55,14 @@ public class MainActivity extends AppCompatActivity {
         if(isWon()) {
             String winner;
 
+            // this is confusing but active player is changed after his turn
             if(1 == activePlayer) {
-                winner = "Red";
-            } else {
                 winner = "Yellow";
+            } else {
+                winner = "Red";
             }
 
-            Toast.makeText(this, winner + " has Won", Toast.LENGTH_SHORT);
+            Toast.makeText(this, winner + " has Won", Toast.LENGTH_SHORT).show();
         }
     }
 
