@@ -62,12 +62,16 @@ public class MainActivity extends AppCompatActivity {
         boolean drawStatus = isFull();
 
         if(winStatus || drawStatus) {
-            // this is confusing but active player is changed after his turn
-            if(1 == activePlayer) {
-                winner = "Yellow Wins";
-            } else {
-                winner = "Red Wins";
+
+            if(winStatus) {
+                // this is confusing but active player is changed after his turn
+                if(1 == activePlayer) {
+                    winner = "Yellow Wins";
+                } else {
+                    winner = "Red Wins";
+                }
             }
+
 
             delayHandler.postDelayed(startNewActivity, 1500);
         }
