@@ -82,7 +82,9 @@ public class MainActivity extends AppCompatActivity {
     private Runnable startNewActivity = new Runnable() {
         @Override
         public void run() {
-            
+            Intent congratsActivityIntent = new Intent(MainActivity.this, congratsActivity.class);
+            congratsActivityIntent.putExtra("winnerName", winner);
+            startActivity(congratsActivityIntent);
         }
     }
 }
