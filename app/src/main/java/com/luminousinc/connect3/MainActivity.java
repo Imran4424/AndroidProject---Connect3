@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(700);
 
-        if(isWon()) {
+        if(isWon() || isFull()) {
             // this is confusing but active player is changed after his turn
             if(1 == activePlayer) {
                 winner = "Yellow";
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 winner = "Red";
             }
 
-            delayHandler.postDelayed(startNewActivity, 1000);
+            delayHandler.postDelayed(startNewActivity, 1500);
         }
     }
 
@@ -78,6 +78,16 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return  false;
+    }
+
+    public  boolean isFull() {
+        for(int i = 0; i < gameState.length; i++) {
+            if(0 == gameState[i]) {
+                return  false;
+            }
+        }
+
+        return true;
     }
 
     private Runnable startNewActivity = new Runnable() {
