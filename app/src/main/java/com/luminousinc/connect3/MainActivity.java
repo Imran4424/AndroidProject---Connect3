@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
+
+        
     }
 
     public boolean isWon() {
