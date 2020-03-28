@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".congratsActivity">
 
+    <Button
+        android:id="@+id/buttonPlayAgain"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="81dp"
+        android:text="Play Again"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWinner" />
+
+    <TextView
+        android:id="@+id/textViewCongrats"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginBottom="26dp"
+        android:text="Congrats"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewWinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewWinner"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="26dp"
+        android:text="Red Wins"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCongrats" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
