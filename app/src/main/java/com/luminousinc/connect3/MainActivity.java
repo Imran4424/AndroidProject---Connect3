@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    // 0 - yellow, 1 - red, 2 - empty
+    // 0 - empty, 1 - red, 2 - yellow
     int activePlayer;
-    int[] gameState = {2, 2, 2, 2, 2, 2, 2, 2};
+    int[] gameState = {0, 0, 0, 0, 0, 0, 0, 0};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +23,13 @@ public class MainActivity extends AppCompatActivity {
         ImageView tappedCell = (ImageView) tappedView;
         int index = Integer.parseInt(tappedCell.getTag().toString());
 
-        if(2 != gameState[index]) {
+        if(0 != gameState[index]) {
             return;
         }
 
-        if(0 == activePlayer) {
+        gameState[index] = activePlayer;
+
+        if(2 == activePlayer) {
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
 
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
 
-            activePlayer = 0;
+            activePlayer = 2;
         }
 
         tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(900);
