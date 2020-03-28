@@ -2,6 +2,7 @@ package com.luminousinc.connect3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,6 +15,6 @@ public class congratsActivity extends AppCompatActivity {
     }
 
     public void playAgain(View v) {
-        
+        startActivity(new Intent(congratsActivity.this, MainActivity.class));
     }
 }
