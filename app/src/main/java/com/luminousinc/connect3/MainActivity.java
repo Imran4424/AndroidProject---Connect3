@@ -70,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     winner = "Red Wins";
                 }
+            } else {
+                winner = "Game Draw";
             }
-
-
             delayHandler.postDelayed(startNewActivity, 1500);
         }
     }
