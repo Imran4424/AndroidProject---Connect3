@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class congratsActivity extends AppCompatActivity {
     TextView winnerText;
-    String winnerName;
+    String winner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,8 @@ public class congratsActivity extends AppCompatActivity {
 
         winnerText = (TextView) findViewById(R.id.textViewWinner);
         Intent currentIntent = getIntent();
-        winnerName = currentIntent.getStringExtra(winnerName);
-        winnerText.setText(winnerName + " Wins");
+        winner = currentIntent.getStringExtra("winnerName");
+        winnerText.setText(winner + " Wins");
     }
 
     public void playAgain(View v) {
