@@ -30,11 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
             activePlayer = 1;
         } else {
-            ImageView tappedCell = (ImageView) tappedView;
-
             tappedCell.setTranslationY(-2000);
             tappedCell.setImageResource(R.drawable.yellow);
-            tappedCell.animate().translationYBy(2000).rotation(3600).setDuration(700);
 
             activePlayer = 0;
         }
